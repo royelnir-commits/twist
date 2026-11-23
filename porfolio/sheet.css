@@ -1,0 +1,100 @@
+ /*font */
+@font-face {
+  font-family: 'Sniglet';
+  src: url('Sniglet/Sniglet-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sniglet';
+  src: url('Sniglet/Sniglet-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+body {
+padding-top: 100px;
+margin: 0;
+font-family: 'Sniglet', sans-serif;
+/*background image */
+background-image: url("catfish.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+}
+
+.page-title {
+  color: rgb(166, 255, 206);
+  text-align: center;
+  -webkit-text-stroke: rgb(79, 121, 239) 1px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 65px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+}
+
+.column {
+  flex: 1;
+}
+
+.border-demo {
+  background-color: #f3e5ff;
+  border: 6px dashed #effd31;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 80px
+}
+
+
+h1 {
+color: rgb(166, 255, 206);
+-webkit-text-stroke: white 1px;
+text-align: center;
+margin-top: 30px;
+font-weight: 800;
+font-size: 50px;
+}
+
+p {
+color: rgb(79, 121, 239);
+line-height: 30px;
+font-weight: 400;
+font-size: 30px;
+}
+
+ul {
+  color: rgb(79, 121, 239);
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+section {
+  background-color: #199fd090;
+  padding: 30px;
+}
+
+a {
+  color: rgb(166, 255, 206);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus-visible {
+  background-color: rgb(166, 255, 206);
+  color: rgb(166, 255, 206);
+  text-decoration: underline;
+}
+
